@@ -1,9 +1,8 @@
 var button = document.getElementById('btn');
 
 
-
-button.addEventListener('click', changeText);
-
-function changeText() {
-button.textContent = ("Zmiana");
+function clickButton() {
+    console.log('Przycisk kliknięty!');
 }
+
+button.addEventListener('click', clickButton);
